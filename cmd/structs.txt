@@ -1,0 +1,12 @@
+package main
+
+type HTTPThingy struct {
+	StatusCode uint32
+	Content    string
+}
+
+type MyStruct struct {
+	FullName       []string
+	Age            int64
+	Info           []HTTPThingy
+}
